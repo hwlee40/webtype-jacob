@@ -1,0 +1,11 @@
+.container_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image{
+    width: 100%;
+}
+.text{
+    overflow: scroll;
+    height: 98vh;
+}
