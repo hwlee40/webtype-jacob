@@ -1,19 +1,19 @@
 /* UNIVERSAL */
 body{
-    background: #E0DFD3;
+    background: #D4D4D4;
     margin: 0;
     padding 0;
 }
 /* GRID (SPINE) */
 .grid_spines{
     display: grid;
-    grid-template-columns: 1fr 70px 70px;
+    grid-template-columns: 70px 1fr 70px;
 }
 .grid_spines_element{
     width: 100%;
 }
-.gray{
-    background: #D4D4D4;
+.beige{
+    background: #E0DFD3;
 }
 .white{
     background: white;
@@ -92,7 +92,6 @@ a{
 .bottom-navigation{
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-top: 15px;
 }
 
 

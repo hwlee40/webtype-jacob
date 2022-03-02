@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Blackletter: Past & Present</title>
 </head>
 <body>
@@ -30,13 +31,13 @@
                     </div>
                 </div>
                 <div></div>
-                <div class="bottom-navigation"><a href="link_styling">Next Chapter</a></div>
+                <div class="bottom-navigation"><a href="chapter2.html">Next Chapter</a></div>
                 
                 
             </div>
         </div>
-        <div class="grid_spines_element gray"><div class="spine_title">Digital Reinterpretations of Blackletter</div></div>
-        <div class="grid_spines_element white"><div class="spine_title">A Return to Ornament</div></div>
+        <a onmouseenter="translateSpine()" onmouseleave="translateSpineUp()" href="chapter2.html" class="grid_spines_element gray"><div id="spine_title" class="spine_title">Digital Reinterpretations of Blackletter</div></a>
+        <a onmouseenter="translateSpine2()" onmouseleave="translateSpineUp2()" href="chapter3.html" class="grid_spines_element white"><div id="spine_title2" class="spine_title">A Return to Ornament</div></a>
     </div>
 </body>
 </html>

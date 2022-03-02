@@ -1,13 +1,13 @@
 /* UNIVERSAL */
 body{
-    background: #E0DFD3;
+    background: white;
     margin: 0;
     padding 0;
 }
 /* GRID (SPINE) */
 .grid_spines{
     display: grid;
-    grid-template-columns: 1fr 70px 70px;
+    grid-template-columns: 70px 70px 1fr;
 }
 .grid_spines_element{
     width: 100%;
@@ -15,8 +15,8 @@ body{
 .gray{
     background: #D4D4D4;
 }
-.white{
-    background: white;
+.beige{
+    background: #E0DFD3;
 }
 .spine_title{
     writing-mode: vertical-rl;
@@ -92,7 +92,6 @@ a{
 .bottom-navigation{
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-top: 15px;
 }
 
 
