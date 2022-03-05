@@ -1,0 +1,16 @@
+.container_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image{
+    width: 100%;
+}
+.text{
+    overflow: scroll;
+    height: 98vh;
+}
+@media screen and (max-width: 500px){ 
+    .container_div{
+        grid-template-columns: 1fr;
+    }
+  } 

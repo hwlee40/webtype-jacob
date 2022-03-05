@@ -1,0 +1,16 @@
+.container_div{
+    width: 500px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.image{
+    width: 100%;
+}
+
+@media screen and (max-width: 500px){ 
+    .container_div{
+        width: 100%;
+    }
+  } 
