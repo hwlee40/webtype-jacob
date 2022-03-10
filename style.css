@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "OnX";
+    src: url("/week4/OnX.woff2") format("woff2");
+  }
+
+  .xno {
+      font-family: OnX;
+      font-size: 100px;
+      font-weight: normal;
+      margin-right: 20px;
+  }
