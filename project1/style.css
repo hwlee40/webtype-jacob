@@ -76,7 +76,7 @@ body{
     grid-template-columns: 1.8fr 1fr;
     padding: 40px 40px 0 40px;
     margin: auto;
-    max-width: 1300px;
+    max-width: 1000px;
 }
 p{
     font-size: 19px;
