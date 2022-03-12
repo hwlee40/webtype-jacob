@@ -831,7 +831,7 @@ unicode = 45;
 },
 {
 glyphname = whiteCircle;
-lastChange = "2022-03-10 19:47:28 +0000";
+lastChange = "2022-03-10 20:16:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -858,16 +858,6 @@ width = 325;
 }
 );
 unicode = 9675;
-},
-{
-glyphname = Bowl;
-lastChange = "2022-03-10 19:42:18 +0000";
-layers = (
-{
-layerId = m01;
-width = 607;
-}
-);
 },
 {
 glyphname = square;
