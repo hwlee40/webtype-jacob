@@ -2,10 +2,30 @@
     font-family: "OnX";
     src: url("week4/OnX.woff2") format("woff2");
   }
+  @font-face {
+    font-family: "Dots";
+    src: url("week5/NewFontVF.woff2") format("woff2");
+  }
+
 
   .xno {
-      font-family: OnX;
-      font-size: 100px;
+      font-family: Dots;
       font-weight: normal;
+      font-size: 100px;
       margin-right: 20px;
+      animation: sizechange 3.5s infinite alternate;
+      transition: all 1s;
+  }
+
+  @keyframes sizechange {
+    0% {
+        font-variation-settings: 'opsz' 0;
+    }
+    100% {
+        font-variation-settings: 'opsz' 100;
+    }
+  }
+
+  .xno:hover {
+      color: yellow;
   }
