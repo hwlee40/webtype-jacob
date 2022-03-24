@@ -8,6 +8,10 @@
   }
 
 
+  body{
+    transition: 1s;
+  }
+
   .xno {
       font-family: Dots;
       font-weight: normal;
@@ -28,4 +32,12 @@
 
   .xno:hover {
       color: yellow;
+  }
+
+  .darkmode{
+    background: black;
+    color: white;
+  }
+  .darkmode h1{
+    color: gray;
   }
