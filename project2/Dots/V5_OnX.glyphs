@@ -1,18 +1,14 @@
 {
 .appVersion = "3108";
 .formatVersion = 3;
-DisplayStrings = (
-lTwoO,
-1234567890A
-);
 axes = (
 {
 name = Weight;
 tag = wght;
 },
 {
-name = "Optical size";
-tag = opsz;
+name = Sharpness;
+tag = shrp;
 }
 );
 customParameters = (
@@ -13067,7 +13063,7 @@ unicode = 90;
 },
 {
 glyphname = a;
-lastChange = "2022-03-25 16:48:34 +0000";
+lastChange = "2022-04-14 02:01:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -27260,7 +27256,7 @@ unicode = 8221;
 },
 {
 glyphname = Circle;
-lastChange = "2022-03-25 16:46:30 +0000";
+lastChange = "2022-04-14 02:01:41 +0000";
 layers = (
 {
 layerId = m01;
