@@ -18,6 +18,11 @@ body{
     cursor: none;
     background: var(--blue);
 }
+@media (max-width: 650px) {
+    body{
+        cursor: auto;
+    }
+}
 #cursor-custom {
     position:absolute;
     height:35px;
