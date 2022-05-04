@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Walsheim";
+    src: url("GtWalsheimRegular.otf");
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Walsheim;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px 40px 50px 40px;
+}
+.movie-button{
+    font-size: 50px;
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 10px 30px 10px 30px;
+    white-space: nowrap;
+    transition: 0.15s;
+}
+.movie-button:hover {
+    color: white;
+    background: black;
+}
+
+/* INFO */
+.info-container{
+    font-size: 50px;
+    padding: 40px;
+    border-top: 1px solid black;
+}
+
+/* FOOTER */
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin: 40px;
+}
+
+/* SECTION */
+.title-style{
+    font-size: 144px;
+    margin: 40px;
+}
+
+.info-style{
+    font-size: 34px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    gap: 40px;
+}
+
+.year{
+
+}
+.genre{}
+.plot{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.comments{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.year-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 130px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
+.genre-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
+.plot-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
+.runtime-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 75px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
+.director-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 75px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
+.comments-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 95px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
+.watched-tag{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 105px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-bottom: 20px;
+}
