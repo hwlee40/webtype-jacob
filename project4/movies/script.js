@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     let movieTitle = "tt0470752"
 
-    $.getJSON("http://www.omdbapi.com/?apikey=140382f9&i=" + movieTitle)
+    $.getJSON("https://www.omdbapi.com/?apikey=140382f9&i=" + movieTitle)
         .done(function(data) {
             console.log(data);
 
