@@ -20,7 +20,7 @@ body{
 .movie-button{
     font-size: 50px;
     border-radius: 100px;
-    border: 1px solid black;
+    border: 1.5px solid black;
     padding: 10px 30px 10px 30px;
     white-space: nowrap;
     transition: 0.15s;
@@ -41,7 +41,7 @@ body{
 .info-container{
     font-size: 50px;
     padding: 40px;
-    border-top: 1px solid black;
+    border-top: 1.5px solid black;
 }
 
 /* FOOTER */
@@ -60,8 +60,8 @@ body{
 
 .info-style{
     font-size: 34px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 40px;
@@ -112,7 +112,7 @@ body{
 }
 .plot-tag{
     font-size: 17px;
-    border: 1px solid black;
+    border: 1.5px solid black;
     width: 50px;
     text-align: center;
     padding: 3px 0 3px 0;

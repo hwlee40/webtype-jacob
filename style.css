@@ -1,26 +1,58 @@
 @font-face {
     font-family: "OnX";
-    src: url("project2/Dots.woff2") format("woff2");
+    src: url("OnX.woff2") format("woff2");
   }
-  @font-face {
-    font-family: "Dots";
-    src: url("week5/NewFontVF.woff2") format("woff2");
-  }
-
-  body{
-    transition: 1s;
-  }
-  h1{
-    font-family: OnX;
-    font-weight: normal;
-    font-variation-settings: 'opsz' 0, 'wght' 50;
-  }
-  input{
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 60px;
+  margin-left: 40px;
+}
+.projects-container{
+  margin: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.exercises-container{
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.button{
+  font-size: 40px;
+  font-variation-settings: 'shrp' 0, 'wght' 40;
+  background: #E8E1DF;
+  border-radius: 100px;
+  padding: 15px 30px 10px 30px;
+  transition: 0.2s;
+}
+.button:hover{
+  background: black;
+  color: white;
+}
+body{
+  transition: 1s;
+  font-family: OnX;
+  font-variation-settings: 'shrp' 100, 'wght' 100;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family: OnX;
+  font-weight: normal;
+  font-variation-settings: 'opsz' 0, 'wght' 50;
+}
+  /* input{
     width: 40vw;
     margin-bottom: 40px;
-  }
+  } */
 
-  .xno {
+  /* .xno {
       font-family: OnX;
       font-weight: normal;
       font-variation-settings: 'opsz' 0, 'wght' 50;
@@ -64,7 +96,7 @@
     --opsz-axis: 40;
     --wght-axis: 55;
     font-variation-settings: 'opsz' var(--opsz-axis), 'wght' var(--wght-axis);
-  }
+  } */
 
   .darkmode{
     background: black;

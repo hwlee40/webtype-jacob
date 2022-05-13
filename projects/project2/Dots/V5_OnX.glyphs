@@ -27669,7 +27669,20 @@ instanceInterpolations = {
 "3BD7D948-931D-4CA1-85BE-747E7947C4D6" = 0.04;
 m01 = 0.54;
 };
-name = "Instance 1";
+name = Crochet;
+},
+{
+axesValues = (
+40,
+15
+);
+instanceInterpolations = {
+"15DDB601-ACF0-41D5-AE7C-D4B47EB8BC74" = 0.17;
+"1CC10B87-F525-4A58-BB41-454B3B4FBA34" = 0.12;
+"5D36BD6C-FAAA-4FE6-8C20-AE6E80D6365F" = 0.03;
+m01 = 0.68;
+};
+name = Cubes;
 }
 );
 metrics = (

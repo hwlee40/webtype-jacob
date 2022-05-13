@@ -27,7 +27,11 @@ $(document).ready(function(){
         // List
         for (let i = 0; i<data.length; i++) {
             $('.list0').append(
-                '<a href="movie' + i + '.html" class="movie-button">' + data[i].Title +'</a>')
+                '<a href="movie' + i + '.html" class="movie-button opacity' + i + '">' + data[i].Title +'</a>');
+
+                let opacity = (data[i].Watched - 2012) / 10;
+
+                $('.opacity' + i).css('opacity', opacity)
         };
 
         for(let i = 0; i < data.length; i++){
